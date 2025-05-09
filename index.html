@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Tableparty Time 🎲</title>
 </head>
 <body>
     <header>
-        <p>Tableparty Time 🎲</p>
+        <img src="./images/logo.png" alt="logo" id="logo">
         <div class="right-links">
-            <p>Rules</p>
-            <p>Rooms</p>
-            <p>Forum</p>
+            <a href="./pages/rules.html">Rules</a>
+            <a href="./pages/rooms.html">Rooms</a>
+            <a href=".pages/Forum.html">Forum</a>
         </div>
     </header>
     <!-- Principal content page-->
     <main>
         <!--First section after header -->
         <section>
-            <p>We're going for an adventure!</p>
-            <p>Join our growing community of gamers. Forse new frienships, play together, explore new games!</p>
-            <img src="./images/top-image.jpg" alt="old console and game cartridges" />
-            <button>Party with us!</button>
+            <div class="hero">
+                <div class="hero-text">
+                    <h1 id="hero-title">We're going for an adventure!</h1>
+                    <p id= "hero-subtitle">Join our growing community of gamers. </p>
+                    <button id="hero-button"">Party with us!</button>
+                </div>
+                <img src="./images/top-image.jpg" alt="old console and game cartridges" id ="hero-image">
+            </div>
         </section>
         <!--Main content secion-->
         <section>
-            <img src="./images/dice.svg" alt="a d20 dungeons and dragons dice">
-            <p>Play Dungeons & Dragons or similar games! Go for an adventure you alwyas wished to play!</p>
-            <img src="./images/monopoly.jpg" alt="monopoly game">
-            <p>Play classical board games like Monopoly with friends. Buy everything before everyone else!</p>
-            <img src="./images/wei-chi.svg" alt="wei chi game">
-            <p>Play traditional games like Wei Chi, Chess or similar if you want!</p>
-            <img src="./images/cards.svg" alt="cards game">
-            <p>Play card games like Poker, Magic the Gathering or similar!</p>
+            <h2 id="main-content-title">What do you want to play?</h2>
+            <div class="main-content">
+                <img class="content-image" src="./images/dice.svg" alt="a d20 dungeons and dragons dice">
+                <img class="content-image" src="./images/monopoly.jpg" alt="monopoly game">              
+                <img class="content-image" src="./images/wei-chi.svg" alt="wei chi game"> 
+                <img class="content-image" src="./images/cards.svg" alt="cards game">
+                <p class="content-text">Play Dungeons & Dragons or similar games! Go for an adventure you alwyas wished to play!</p>
+                <p class="content-text">Play card games like Poker, Magic the Gathering or similar!</p>
+                <p class="content-text">Play classical board games like Monopoly with friends. Buy everything before everyone else!</p>
+                <p class="content-text">Play traditional games like Wei Chi, Chess or similar if you want!</p>
+            </div>
         </section>
         <!--Quote section-->
         <section>

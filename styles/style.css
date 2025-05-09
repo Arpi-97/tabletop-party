@@ -7,11 +7,20 @@ header{
     display: flex;
     justify-content: space-around;
     background: #1f2937;
+
 }
 
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background: #1f2937;
+    padding: 20px;
 }
 
 .right-links {
@@ -80,11 +89,114 @@ a {
 }
 
 .content-image {
-    width: 10%;
-    height: 10%;
+    width: 200px;
+    height: 200px;
+    border: #3b82f6 2px solid;
+    border-radius: 10px;
 }
 
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.first-info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
 
+.second-info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
 
+.third-info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.fourth-info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+#quote-author {
+    font-weight: 900;
+}
+
+.quote-content {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+}
+
+#last-section-button {
+    background: #3b82f6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: white 2px solid;
+    cursor: pointer;
+    align-self: center;
+}
+
+#last-section-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.last-section-content {
+    display: flex;
+    padding: 100px;
+}
+
+.last-section-text {
+    margin: 0;
+    padding: 20px;
+    background: #3b82f6;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    color: #ffffff;
+    gap: 1px;
+}
+
+.last-section-text-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 

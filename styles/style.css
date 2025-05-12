@@ -98,7 +98,8 @@ footer {
 .main-content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     padding: 20px;
 }
 
@@ -138,24 +139,24 @@ footer {
     text-align: center;
 }
 
-#quote-text {
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    
-}
-
-#quote-author {
-    font-weight: 900;
-}
-
 .quote-content {
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
-    padding: 50px;
+    padding: 100px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote-author {
+    font-weight: 900;
+    align-self: right;
+    margin-right: 1em;
 }
 
 #last-section-button {
@@ -175,6 +176,7 @@ footer {
 
 .last-section-content {
     display: flex;
+    flex-direction: column;
     padding: 100px;
 }
 
@@ -183,20 +185,14 @@ footer {
     padding: 20px;
     background: #3b82f6;
     border-radius: 10px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
     color: #ffffff;
     gap: 1px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .last-section-text-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
 }
-
